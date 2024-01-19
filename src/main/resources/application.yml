@@ -1,0 +1,19 @@
+server:
+  servlet:
+    context-path: /bmeter
+bmeter:
+  ping:
+    # Default value false
+    enabled: true
+    # Default value /ping
+    path: /ping
+    retry:
+      # Default value 3
+      maxAttempts: 3
+      # Default value 100
+      delay: 100
+
+
+service:
+  name: service1
+  url: https://myserver.free.beeceptor.com
